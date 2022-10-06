@@ -12,7 +12,7 @@ seed = 42
 ################################
 
 # Load in the data
-df = pd.read_csv("C:\lectures\github-actions-cml\winequality-red.csv")
+df = pd.read_csv("C:\\lectures\\github-actions-cml\\wine_quality.csv")
 
 # Split into train and test sections
 y = df.pop("quality")
